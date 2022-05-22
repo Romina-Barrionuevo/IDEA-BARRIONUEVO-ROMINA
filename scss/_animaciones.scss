@@ -1,0 +1,46 @@
+ /* animaciones*/
+  /*logo*/
+  article {
+      img:hover {
+         width: 100px;
+         height: 100px;
+         transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);}
+  
+  }
+  
+  header {
+      img:hover {
+    transform: rotate(360deg);
+    transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1)}
+  }
+  
+  /* enlace medio*/
+  div {
+      nav a:hover {
+    transform: translate(10px, 10px)}
+  }
+  
+  main {
+      section {
+           div {
+                h1 {
+  
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;}}}
+  
+  }
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }

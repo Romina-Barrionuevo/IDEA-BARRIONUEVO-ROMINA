@@ -1,0 +1,24 @@
+  /*mobile*/
+  @media screen and (max-width: 380px) {
+  
+    /* index, diseñoWeb,otrosServiciosDigitales*/
+    .servicios {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    /*contacto*/
+    form {
+      margin: auto;
+      width: 50%;
+      background-color: rgb(17, 19, 17);
+      padding: 30px;
+      border-radius: 10px;
+    }
+  
+    /*quienesSomos se ajusta a mobile*/
+  }
+  
+  /* la estructura del sitio se ajusta a pc y tablet tbn*/
+  
+  

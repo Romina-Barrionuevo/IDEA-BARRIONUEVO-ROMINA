@@ -1,0 +1,39 @@
+ /*header*/
+  
+ header h1 {
+    text-align: center;
+    background-color: darkorange;
+    margin-bottom: -16px
+  }
+  
+  
+  ul {
+    list-style: none;
+    /* quito puntitos */
+    padding: 0;
+  }
+  
+  nav>ul {
+  
+    display: flex;
+    justify-content: flex-end;
+    /* acomode menu*/
+    background-color: black;
+  }
+  
+  
+  nav ul a,
+  section div nav a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    background-color: rgb(10, 1, 1);
+  }
+  
+  nav li a:hover {
+    background-color: darkorange;
+  }
