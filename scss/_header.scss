@@ -1,10 +1,10 @@
  /*header*/
   
- header h1 {
+ header { h1 {
     text-align: center;
     background-color: darkorange;
     margin-bottom: -16px
-  }
+  }}
   
   
   ul {
@@ -13,17 +13,34 @@
     padding: 0;
   }
   
-  nav>ul {
+  nav {
+    ul {
   
     display: flex;
     justify-content: flex-end;
     /* acomode menu*/
     background-color: black;
-  }
+  }}
   
   
-  nav ul a,
-  section div nav a {
+  nav {
+    ul {
+      a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        background-color: rgb(10, 1, 1);
+
+      }}}
+  
+  section {
+    div {
+      nav {
+        a {
     display: block;
     padding: 10px;
     text-align: center;
@@ -32,8 +49,11 @@
     color: white;
     font-size: 14px;
     background-color: rgb(10, 1, 1);
-  }
+  }}}}
   
-  nav li a:hover {
+  nav {
+
+  li {
+    a:hover {
     background-color: darkorange;
-  }
+  }}}

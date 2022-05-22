@@ -16,9 +16,10 @@
   
   /* enlace medio*/
   div {
-      nav a:hover {
+      nav {
+        a:hover {
     transform: translate(10px, 10px)}
-  }
+  }}
   
   main {
       section {
