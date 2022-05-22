@@ -31,6 +31,7 @@
 .main_container {
   grid-area: main_container; }
 
+/* variables*/
 /*header*/
 header h1 {
   text-align: center;
@@ -56,7 +57,7 @@ nav ul a {
   text-transform: uppercase;
   color: white;
   font-size: 14px;
-  background-color: #0a0101; }
+  background-color: black; }
 
 section div nav a {
   display: block;
@@ -66,7 +67,7 @@ section div nav a {
   text-transform: uppercase;
   color: white;
   font-size: 14px;
-  background-color: #0a0101; }
+  background-color: black; }
 
 nav li a:hover {
   background-color: darkorange; }

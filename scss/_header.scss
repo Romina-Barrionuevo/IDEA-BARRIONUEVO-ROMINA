@@ -1,3 +1,9 @@
+ /* variables*/
+ 
+$colorFondoNav: black;
+$colorHoverNav: darkorange;
+
+
  /*header*/
   
  header { h1 {
@@ -19,7 +25,7 @@
     display: flex;
     justify-content: flex-end;
     /* acomode menu*/
-    background-color: black;
+    background-color: $colorFondoNav;
   }}
   
   
@@ -33,7 +39,7 @@
         text-transform: uppercase;
         color: white;
         font-size: 14px;
-        background-color: rgb(10, 1, 1);
+        background-color: $colorFondoNav;
 
       }}}
   
@@ -48,12 +54,12 @@
     text-transform: uppercase;
     color: white;
     font-size: 14px;
-    background-color: rgb(10, 1, 1);
+    background-color: $colorFondoNav;
   }}}}
   
   nav {
 
   li {
     a:hover {
-    background-color: darkorange;
+    background-color: $colorHoverNav;
   }}}
