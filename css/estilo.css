@@ -1,9 +1,11 @@
 @charset "UTF-8";
+/* variables*/
 * {
   font-family: Comfortaa;
-  color: white; }
+  color: white;
+  margin: 0px;
+  padding: 0px; }
 
-/* variables*/
 .grid_container {
   display: grid;
   grid-template-columns: 0.2fr 2.4fr 0.2fr;

@@ -45,6 +45,17 @@
     flex-direction: row;
     justify-content: space-between;
     flex-basis: 33%;
+
+    @include responsive(pc){
+      flex-direction: row;
+    }
+    @include responsive(tablet){
+      flex-direction: row;
+    }
+    @include responsive(mobile){
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
   
   
