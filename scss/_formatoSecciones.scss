@@ -133,3 +133,12 @@
     color: rgb(10, 1, 1);
 
   }
+
+  /* incorporando extend*/
+   .servicios--qs{
+     @extend .servicios;
+     flex-direction: column;
+
+   }
+
+ 

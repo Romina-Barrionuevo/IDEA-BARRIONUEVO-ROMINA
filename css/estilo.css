@@ -93,19 +93,19 @@ h4 {
 section article h2 {
   text-align: left; }
 
-.servicios {
+.servicios, .servicios--qs {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-basis: 33%; }
   @media (max-width: 1400px) {
-    .servicios {
+    .servicios, .servicios--qs {
       flex-direction: row; } }
   @media (max-width: 768px) {
-    .servicios {
+    .servicios, .servicios--qs {
       flex-direction: row; } }
   @media (max-width: 425px) {
-    .servicios {
+    .servicios, .servicios--qs {
       flex-direction: column;
       justify-content: space-between; } }
 
@@ -140,6 +140,10 @@ textarea {
   height: 100%;
   margin: auto;
   color: #0a0101; }
+
+/* incorporando extend*/
+.servicios--qs {
+  flex-direction: column; }
 
 /* animaciones*/
 /*logo*/
