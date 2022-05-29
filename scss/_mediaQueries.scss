@@ -1,16 +1,37 @@
-  /*mobile*/
-  @media screen and (max-width: 425px) {
-  
-    /* index, diseñoWeb,otrosServiciosDigitales*/
-    .servicios {
-      flex-direction: column;
-      justify-content: space-between;
+
+/*mobile*/
+@media screen and (max-width: 425px) {
+
+/* index, diseñoWeb,otrosServiciosDigitales*/
+.servicios {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+}
+
+/quienesSomos se ajusta a mobile/
+
+/* la estructura del sitio se ajusta a pc y tablet tbn*/
+
+/*responsive*/
+
+$pc: 1400px;
+$tablet: 768px;
+$mobile: 425px;
+
+@mixin responsive ($medida) {
+    @if $medida == pc {
+        @media (max-width: $pc){
+            @content
+        }
+    } @else if $medida == $tablet {
+        @media (max-width: $tablet) {
+            @content
+        }
+    } @else if $medida == $mobile {
+        @media (max-width: $mobile) {
+            @content
+        }
     }
-  
-    
-    /*quienesSomos se ajusta a mobile*/
-  }
-  
-  /* la estructura del sitio se ajusta a pc y tablet tbn*/
-  
-  
+}
