@@ -18,6 +18,16 @@
 
   /* secciones index*/
 
+  main{
+    section {
+      div {
+        h2{
+          text-align: map-get($titulos, centrado);
+        }
+      }
+    }
+  }
+
   section {
     div {
       h3 {
@@ -42,7 +52,6 @@
 
   section {
     article {
-
       h2 {
         text-align: left;
       }

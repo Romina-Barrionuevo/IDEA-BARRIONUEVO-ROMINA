@@ -81,6 +81,9 @@ ul li:hover ul {
   display: block; }
 
 /* secciones index*/
+main section div h2 {
+  text-align: center; }
+
 section div h3 {
   text-align: center; }
 
@@ -160,7 +163,7 @@ header img:hover {
 div nav a:hover {
   transform: translate(10px, 10px); }
 
-main section div h1 {
+main section div h2 {
   animation-duration: 2s;
   animation-name: aparecer;
   animation-iteration-count: infinite; }
