@@ -1,8 +1,27 @@
   /*boton*/
-  div {
-    nav {
+  section {
+    div {
       a:hover {
         background-color: darkorange;
+        text-decoration: none;
+        font-weight: bolder;
+        color: white;
+      }
+    }
+  }
+  
+  section{
+    div{
+      a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        background-color: $colorFondoNav;
+        
       }
     }
   }
@@ -23,6 +42,9 @@
       div {
         h2{
           text-align: map-get($titulos, centrado);
+          margin-top: 15px;
+          margin-bottom: 15px;
+          font-size: 30px;
         }
       }
     }
@@ -32,6 +54,7 @@
     div {
       h3 {
         text-align: map-get($titulos, centrado);
+        padding: 1%;
       }
     }
   }
@@ -112,17 +135,41 @@
     }
   }
 
-  /*quienes somos*/
-  main {
-    div {
-      iframe {
-        width: 100%;
-        height: 100%;
-        margin: auto;
+  main{
+    div{
+      article{
+        h4{
+          margin-top: 5%;
+        }
       }
     }
   }
 
+  /*otros servicios*/
+  main{
+    section{
+      div{
+        article{
+          h3{
+            margin-top: 5%;
+          }
+        }
+      }
+    }
+  }
+
+  /*quienes somos*/
+  main {
+    div {
+      iframe {
+        margin-left: 2%;
+        margin-bottom: 2%;
+        width: 100%;
+      }
+    }
+  }
+
+  
   /* formulario*/
 
   form {
@@ -145,8 +192,30 @@
 
   /* incorporando extend*/
    .servicios--qs{
-     @extend .servicios;
-     flex-direction: column;
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+      text-align: justify;
+      
+      
+
+      @include responsive (pc) {
+        flex-direction: row;
+  
+      }
+  
+      @include responsive (tablet) {
+        flex-direction: column;
+      }
+  
+      @include responsive (mobile) {
+        flex-direction: column;
+        justify-content: space-between;
+      }
+  
+
+ /* @extend .servicios;
+     flex-direction: column;*/
 
    }
 

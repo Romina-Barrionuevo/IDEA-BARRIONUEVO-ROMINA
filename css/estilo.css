@@ -74,18 +74,35 @@ nav li a:hover {
   background-color: darkorange; }
 
 /*boton*/
-div nav a:hover {
-  background-color: darkorange; }
+section div a:hover {
+  background-color: darkorange;
+  text-decoration: none;
+  font-weight: bolder;
+  color: white; }
+
+section div a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  background-color: black; }
 
 ul li:hover ul {
   display: block; }
 
 /* secciones index*/
 main section div h2 {
-  text-align: center; }
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px; }
 
 section div h3 {
-  text-align: center; }
+  text-align: center;
+  padding: 1%; }
 
 div h1 {
   text-align: center; }
@@ -96,19 +113,19 @@ h4 {
 section article h2 {
   text-align: left; }
 
-.servicios, .servicios--qs {
+.servicios {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-basis: 33%; }
   @media (max-width: 1400px) {
-    .servicios, .servicios--qs {
+    .servicios {
       flex-direction: row; } }
   @media (max-width: 768px) {
-    .servicios, .servicios--qs {
+    .servicios {
       flex-direction: row; } }
   @media (max-width: 425px) {
-    .servicios, .servicios--qs {
+    .servicios {
       flex-direction: column;
       justify-content: space-between; } }
 
@@ -122,11 +139,18 @@ main section div article p {
 article ul li {
   text-align: left; }
 
+main div article h4 {
+  margin-top: 5%; }
+
+/*otros servicios*/
+main section div article h3 {
+  margin-top: 5%; }
+
 /*quienes somos*/
 main div iframe {
-  width: 100%;
-  height: 100%;
-  margin: auto; }
+  margin-left: 2%;
+  margin-bottom: 2%;
+  width: 100%; }
 
 /* formulario*/
 form {
@@ -146,7 +170,22 @@ textarea {
 
 /* incorporando extend*/
 .servicios--qs {
-  flex-direction: column; }
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  text-align: justify;
+  /* @extend .servicios;
+     flex-direction: column;*/ }
+  @media (max-width: 1400px) {
+    .servicios--qs {
+      flex-direction: row; } }
+  @media (max-width: 768px) {
+    .servicios--qs {
+      flex-direction: column; } }
+  @media (max-width: 425px) {
+    .servicios--qs {
+      flex-direction: column;
+      justify-content: space-between; } }
 
 /* animaciones*/
 /*logo*/
@@ -160,9 +199,11 @@ header img:hover {
   transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 /* enlace medio*/
-div nav a:hover {
-  transform: translate(10px, 10px); }
-
+/*div {
+      nav {
+        a:hover {
+    transform: translate(10px, 10px)}
+  }}*/
 main section div h2 {
   animation-duration: 2s;
   animation-name: aparecer;
