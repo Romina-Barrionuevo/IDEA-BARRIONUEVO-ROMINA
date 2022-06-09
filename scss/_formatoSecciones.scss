@@ -213,10 +213,12 @@
         justify-content: space-between;
       }
   
-
- /* @extend .servicios;
-     flex-direction: column;*/
-
-   }
-
- 
+/* @extend .servicios;
+flex-direction: column;*/
+  }
+/*otros servicios*/
+main{
+  h2{
+    margin-bottom: 2%;
+  }
+}

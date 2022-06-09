@@ -175,7 +175,7 @@ textarea {
   padding: 5px;
   text-align: justify;
   /* @extend .servicios;
-     flex-direction: column;*/ }
+flex-direction: column;*/ }
   @media (max-width: 1400px) {
     .servicios--qs {
       flex-direction: row; } }
@@ -186,6 +186,10 @@ textarea {
     .servicios--qs {
       flex-direction: column;
       justify-content: space-between; } }
+
+/*otros servicios*/
+main h2 {
+  margin-bottom: 2%; }
 
 /* animaciones*/
 /*logo*/
