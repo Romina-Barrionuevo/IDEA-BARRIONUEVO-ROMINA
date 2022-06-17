@@ -120,7 +120,11 @@
       div {
         article {
           p {
-            text-align: map-get($textos,izquierda);
+            ul{
+              li{
+            text-align: map-get($textos, centrado);
+              }
+            }
           }
         }
       }

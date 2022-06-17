@@ -133,8 +133,8 @@ main section div article {
   flex-basis: 30%;
   text-align: center; }
 
-main section div article p {
-  text-align: left; }
+main section div article p ul li {
+  text-align: center; }
 
 article ul li {
   text-align: left; }
