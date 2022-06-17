@@ -87,7 +87,7 @@ section div a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   background-color: black;
   margin-top: 15px;
   margin-bottom: 15px; }
@@ -104,7 +104,7 @@ main section div h2 {
 
 section div h3 {
   text-align: center;
-  padding: 2%; }
+  padding: 1%; }
 
 div h1 {
   text-align: center; }
@@ -115,7 +115,7 @@ h4 {
 section article h2 {
   text-align: left;
   margin-bottom: 3%;
-  margin-top: 3%; }
+  margin-top: 1%; }
 
 .servicios {
   display: flex;
@@ -147,6 +147,10 @@ main div article h4 {
   margin-top: 5%;
   margin-bottom: 8%; }
 
+hr {
+  margin-top: -2%;
+  margin-bottom: 2%; }
+
 /*otros servicios*/
 main section div article h3 {
   margin-top: 5%;
@@ -164,7 +168,8 @@ form {
   width: 100%;
   background-color: #111311;
   padding: 30px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-bottom: 3%; }
 
 input,
 textarea {
@@ -196,7 +201,7 @@ flex-direction: column;*/ }
 /*otros servicios*/
 main h2 {
   margin-bottom: 2%;
-  margin-top: 3%; }
+  margin-top: 2%; }
 
 /* animaciones*/
 /*logo*/

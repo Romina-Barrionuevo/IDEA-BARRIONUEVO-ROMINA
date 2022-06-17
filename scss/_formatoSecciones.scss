@@ -19,7 +19,7 @@
         text-decoration: none;
         text-transform: uppercase;
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         background-color: $colorFondoNav;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -56,7 +56,7 @@
     div {
       h3 {
         text-align: map-get($titulos, centrado);
-        padding: 2%;
+        padding: 1%;
 
       }
     }
@@ -81,7 +81,7 @@
       h2 {
         text-align: left;       
         margin-bottom: 3%;
-        margin-top: 3%;
+        margin-top: 1%;
       }
     }
   }
@@ -105,6 +105,7 @@
     @include responsive (mobile) {
       flex-direction: column;
       justify-content: space-between;
+      
     }
 
   }
@@ -154,6 +155,10 @@
     }
   }
 
+  hr{
+    margin-top: -2%;
+    margin-bottom: 2%;
+  }
   /*otros servicios*/
   main {
     section {
@@ -188,6 +193,7 @@
     background-color: rgb(17, 19, 17);
     padding: 30px;
     border-radius: 10px;
+    margin-bottom: 3%;
   }
 
   input,
@@ -229,6 +235,6 @@ flex-direction: column;*/
   main {
     h2 {
       margin-bottom: 2%;
-      margin-top: 3%;
+      margin-top: 2%;
     }
   }
