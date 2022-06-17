@@ -104,7 +104,7 @@
 
     @include responsive (mobile) {
       flex-direction: column;
-      justify-content: space-between;
+      /*justify-content: space-between;*/
       
     }
 
@@ -231,9 +231,8 @@
 flex-direction: column;*/
   }
 
-  /*otros servicios*/
-  main {
-    h2 {
+    main {
+      h2 {
       margin-bottom: 2%;
       margin-top: 2%;
     }
