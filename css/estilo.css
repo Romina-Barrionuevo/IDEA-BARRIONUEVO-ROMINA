@@ -104,7 +104,7 @@ main section div h2 {
 
 section div h3 {
   text-align: center;
-  padding: 1%; }
+  padding: 2%; }
 
 div h1 {
   text-align: center; }
@@ -114,7 +114,8 @@ h4 {
 
 section article h2 {
   text-align: left;
-  margin-bottom: 3%; }
+  margin-bottom: 3%;
+  margin-top: 3%; }
 
 .servicios {
   display: flex;
@@ -194,7 +195,8 @@ flex-direction: column;*/ }
 
 /*otros servicios*/
 main h2 {
-  margin-bottom: 2%; }
+  margin-bottom: 2%;
+  margin-top: 3%; }
 
 /* animaciones*/
 /*logo*/

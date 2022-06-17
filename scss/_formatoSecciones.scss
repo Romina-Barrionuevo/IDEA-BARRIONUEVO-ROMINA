@@ -56,7 +56,8 @@
     div {
       h3 {
         text-align: map-get($titulos, centrado);
-        padding: 1%;
+        padding: 2%;
+
       }
     }
   }
@@ -80,6 +81,7 @@
       h2 {
         text-align: left;       
         margin-bottom: 3%;
+        margin-top: 3%;
       }
     }
   }
@@ -227,5 +229,6 @@ flex-direction: column;*/
   main {
     h2 {
       margin-bottom: 2%;
+      margin-top: 3%;
     }
   }
