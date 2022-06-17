@@ -87,8 +87,10 @@ section div a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-size: 14px;
-  background-color: black; }
+  font-size: 18px;
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
 ul li:hover ul {
   display: block; }
@@ -98,7 +100,7 @@ main section div h2 {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 30px; }
+  font-size: 40px; }
 
 section div h3 {
   text-align: center;
@@ -111,7 +113,8 @@ h4 {
   text-align: center; }
 
 section article h2 {
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 3%; }
 
 .servicios {
   display: flex;
@@ -133,18 +136,20 @@ main section div article {
   flex-basis: 30%;
   text-align: center; }
 
-main section div article p ul li {
+main section div article ul li {
   text-align: center; }
 
 article ul li {
-  text-align: left; }
+  text-align: center; }
 
 main div article h4 {
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-bottom: 8%; }
 
 /*otros servicios*/
 main section div article h3 {
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-bottom: 8%; }
 
 /*quienes somos*/
 main div iframe {

@@ -9,19 +9,21 @@
       }
     }
   }
-  
-  section{
-    div{
-      a{
+
+  section {
+    div {
+      a {
         display: block;
         padding: 10px;
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         color: white;
-        font-size: 14px;
+        font-size: 18px;
         background-color: $colorFondoNav;
-        
+        margin-top: 15px;
+        margin-bottom: 15px;
+
       }
     }
   }
@@ -37,14 +39,14 @@
 
   /* secciones index*/
 
-  main{
+  main {
     section {
       div {
-        h2{
+        h2 {
           text-align: map-get($titulos, centrado);
           margin-top: 15px;
           margin-bottom: 15px;
-          font-size: 30px;
+          font-size: 40px;
         }
       }
     }
@@ -63,20 +65,21 @@
 
   div {
     h1 {
-      text-align: map-get($titulos, centrado )
-        }
+      text-align: map-get($titulos, centrado)
+    }
   }
 
   h4 {
     text-align: map-get($titulos, centrado)
-   }
+  }
 
 
 
   section {
     article {
       h2 {
-        text-align: left;
+        text-align: left;       
+        margin-bottom: 3%;
       }
     }
   }
@@ -86,6 +89,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-basis: 33%;
+
 
     @include responsive (pc) {
       flex-direction: row;
@@ -109,7 +113,7 @@
       div {
         article {
           flex-basis: 30%;
-          text-align: map-get($titulos, centrado );
+          text-align: map-get($titulos, centrado);
         }
       }
     }
@@ -119,11 +123,9 @@
     section {
       div {
         article {
-          p {
-            ul{
-              li{
-            text-align: map-get($textos, centrado);
-              }
+          ul {
+            li {
+              text-align: map-get($textos, centrado);
             }
           }
         }
@@ -131,31 +133,33 @@
     }
   }
 
-  article {
-    ul {
-      li {
-        text-align: map-get($textos,izquierda);
-      }
-    }
+  article {    
+      ul {
+        li {
+          text-align: map-get($textos, centrado);
+        }
+        }
   }
 
-  main{
-    div{
-      article{
-        h4{
+  main {
+    div {
+      article {
+        h4 {
           margin-top: 5%;
+          margin-bottom: 8%;
         }
       }
     }
   }
 
   /*otros servicios*/
-  main{
-    section{
-      div{
-        article{
-          h3{
+  main {
+    section {
+      div {
+        article {
+          h3 {
             margin-top: 5%;
+            margin-bottom: 8%;
           }
         }
       }
@@ -173,7 +177,7 @@
     }
   }
 
-  
+
   /* formulario*/
 
   form {
@@ -195,34 +199,33 @@
   }
 
   /* incorporando extend*/
-  .servicios--qs{
-      display: flex;
+  .servicios--qs {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-align: justify;
+    
+    @include responsive (pc) {
       flex-direction: row;
-      padding: 5px;
-      text-align: justify;
-      
-      
 
-      @include responsive (pc) {
-        flex-direction: row;
-  
-      }
-  
-      @include responsive (tablet) {
-        flex-direction: column;
-      }
-  
-      @include responsive (mobile) {
-        flex-direction: column;
-        justify-content: space-between;
-      }
-  
-/* @extend .servicios;
+    }
+
+    @include responsive (tablet) {
+      flex-direction: column;
+    }
+
+    @include responsive (mobile) {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* @extend .servicios;
 flex-direction: column;*/
   }
-/*otros servicios*/
-main{
-  h2{
-    margin-bottom: 2%;
+
+  /*otros servicios*/
+  main {
+    h2 {
+      margin-bottom: 2%;
+    }
   }
-}
