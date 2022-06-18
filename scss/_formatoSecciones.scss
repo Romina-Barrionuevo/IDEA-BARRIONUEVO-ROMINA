@@ -106,10 +106,8 @@
       flex-direction: column;
       justify-content: space-between;
       
+      }
     }
-
-  }
-
 
   main {
     section {
@@ -225,6 +223,7 @@
     @include responsive (mobile) {
       flex-direction: column;
       justify-content: space-between;
+      
     }
 
     /* @extend .servicios;
