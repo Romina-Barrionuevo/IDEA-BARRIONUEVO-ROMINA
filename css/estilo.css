@@ -128,7 +128,7 @@ section article h2 {
   @media (max-width: 768px) {
     .servicios {
       flex-direction: column; } }
-  @media (max-width: 250px) {
+  @media (max-width: 150px) {
     .servicios {
       flex-direction: column;
       justify-content: space-between; } }
@@ -193,7 +193,7 @@ flex-direction: column;*/ }
   @media (max-width: 768px) {
     .servicios--qs {
       flex-direction: column; } }
-  @media (max-width: 250px) {
+  @media (max-width: 150px) {
     .servicios--qs {
       flex-direction: column;
       justify-content: space-between; } }
