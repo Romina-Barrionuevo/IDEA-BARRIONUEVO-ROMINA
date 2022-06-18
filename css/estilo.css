@@ -127,7 +127,7 @@ section article h2 {
       flex-direction: row; } }
   @media (max-width: 768px) {
     .servicios {
-      flex-direction: column; } }
+      flex-direction: row; } }
   @media (max-width: 425px) {
     .servicios {
       flex-direction: column;
