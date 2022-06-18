@@ -99,7 +99,7 @@
     }
 
     @include responsive (tablet) {
-      flex-direction: row;
+      flex-direction: column;
     }
 
     @include responsive (mobile) {

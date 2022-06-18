@@ -2,7 +2,7 @@
 
 $pc: 1400px;
 $tablet: 768px;
-$mobile: 425px;
+$mobile: 250px;
 
 @mixin responsive ($medida) {
     @if $medida == pc {
