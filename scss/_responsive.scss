@@ -19,3 +19,45 @@ $mobile: 425px;
         }
     } 
 }
+
+ /* correccion error margenes en otros servicios*/
+ #otrossv{
+
+    @media  (max-width: 345px){
+      margin-top: -1px;
+      margin-bottom: 0px;
+      padding: 0px;
+      
+    }
+    @media  (max-width: 337px){
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+      
+    }
+    @media  (max-width: 250px){
+      margin-top: -30px;
+      margin-bottom: 0px;
+      padding: 0px;
+      
+    }    
+    @media  (max-width: 245px){
+      margin-top: -1px;
+      margin-bottom: 0px;
+      padding: 0px;
+      
+    } 
+    @media  (max-width: 263px){
+      margin-top: -10px;
+      margin-bottom: 0px;
+      padding: 0px;
+      
+    }
+    @media  (max-width: 197px){
+      margin-top: -50px;
+      margin-bottom: 0px;
+      padding: 0px;
+      
+    }
+
+  }
